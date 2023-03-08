@@ -1,0 +1,171 @@
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+.userDetails_Btn_page_store{
+    width: 100%;
+    height: 165vh;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    z-index: 99;
+    display: none;
+}
+.userDetails_Btn_page_store .userDetails_btn{
+    width: 200px;
+    height: 140px;
+    background-color: #000000;
+    position: fixed;
+    right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.userDetails_Btn_page_store .userDetails_btn a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 7px;
+}
+
+.header_container .header_section .header_left ul #store_Text_line{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+.store_page_container{
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), var(--categoriesBg);
+    z-index: -1;
+}
+.store_page_container .sec1{
+    width: 100%;
+    display: inline-flex;
+}
+.store_page_container .sec1 .topImg_link{
+    width: 100%;
+    height: 50vh;
+}
+.store_page_container .sec1 .topImg_link img{
+    width: 100%;
+    height: 100%;
+}
+.main_sections{
+    padding: 25px 0 0px 50px;
+    position: relative;
+    z-index: 0;
+}
+.main_sections .main_contants{
+    height: 300px;
+}
+.main_sections .main_contants h2{
+    color: #fff;
+}
+.main_sections .main_contants h2 span{
+    font-size: 14px;
+    color: var(--btns);
+}
+.main_sections .main_contants .films_container{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-flex;
+    transition: 1s ease-in;
+}
+.main_sections .nextarrow{
+    position: absolute;
+    top: 10%;
+    left: 95%;
+    z-index: 1;
+    font-size: 45px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    height: 230px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.main_sections .previousarrow{
+    position: absolute;
+    top: 10%;
+    left: -1%;
+    z-index: 1;
+    font-size: 45px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    height: 230px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+.main_sections .nextarrow1{
+    position: absolute;
+    top: 58%;
+    left: 95%;
+    z-index: 1;
+    font-size: 45px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    height: 230px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.main_sections .previousarrow1{
+    position: absolute;
+    top: 58%;
+    left: -1%;
+    z-index: 1;
+    font-size: 45px;
+    background-color: rgba(0,0,0,0.5);
+    color: #fff;
+    height: 230px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: none;
+}
+.main_sections .main_contants .films_container .film1{
+    width: 300px;
+    /* border: 2px solid red; */
+    padding: 6px;
+    transition: 0.5s ease-in;
+}
+.main_sections .main_contants .films_container .film1:hover{
+    box-shadow: 0px 0px 12px var(--btns);
+    width: 320px;
+}
+.main_sections .main_contants .films_container .film1 img{
+    width: 100%;
+}
+.main_sections .main_contants .films_container .film1 h3{
+    color: #fff;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+.main_sections .main_contants .films_container .film1 a{
+    color: var(--btns);
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 70px;
+}
+.main_sections .main_contants .films_container .film1 a:hover{
+    text-decoration: underline;
+}
+.main_sections .main_contants .films_container .film1 span{
+    margin-left: 8px;
+    color: #fff;
+    font-size: 16px;
+}

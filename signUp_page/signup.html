@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All in one prime_Sign up! Sign up now to see prime rent videos...</title>
+    <link rel="stylesheet" href="./signup.css">
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+</head>
+<body>
+    <div class="Signup_container">
+        <h2 class="signup_logo">All in One <i class="fa-solid fa-rotate"></i> PRIME</h2>
+        <div class="signup_innerContainer">
+            <form action="" onsubmit="return validate()">
+                <h3 class="form_title">Create account</h3>
+                <div class="input_box">
+                    <label for="name">Your name</label>
+                    <input type="text" value="" id="name" placeholder="First and last name" autofocus>
+                    <p id="Vname"></p>
+                </div>
+                <div class="input_box">
+                    <label for="Email">Email</label>
+                    <input type="text" value="" id="email" placeholder="email@123">
+                    <p id="VEmail"></p>
+                </div>
+                <div class="input_box">
+                    <label for="Password">Password</label>
+                    <input type="password" value="" id="pass" placeholder="At least 8 characters">
+                    <span id="eye_open" class="pass_icon"><i class="fa-regular fa-eye"></i></span>
+                    <span id="eye_close" class="pass_icon"><i class="fa-regular fa-eye-slash"></i></span>
+                    <p id="VPassword"></p>
+                </div>
+                <div class="input_box">
+                    <label for="re_pass">Re-enter password</label>
+                    <input type="password"  value="" id="re_pass">
+                    <p id="VRe_pass"></p>
+                </div>
+                <div class="input_box">
+                    <input type="submit" value="Create your prime account" class="signup_btn">
+                </div>
+                <p class="terms_para">By creating an account, you agree to the prime <a href="#">Conditions of Use and Privacy Notice.</a>
+                </p>
+                <div class="horiz_line">
+                    <hr>
+                </div>
+                <p class="already_acc_para">Already have an account? <a href="#">Sign in <i class="fa-solid fa-caret-right"></i></a></p>
+            </form>
+        </div>
+    </div>
+    <!-- ****************************************************footer******************************** -->
+    <div class="footer">
+        <h3 class="Footer_logo">All in One <i class="fa-solid fa-rotate"></i> PRIME</h3>
+        <div class="footer_terms">
+            <span class="footer_terms_condition"><a href="#">Terms and Privacy Notice</a></span>
+            <span class="feedback_link"><a href="#">Send us feedback</a></span>
+            <span class="help_link"><a href="#">Help</a></span>
+        </div>
+        <div class="copywrite">
+            <span class="copywrite_text">© 2023, Prime.com, Inc. or its affiliates</span>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

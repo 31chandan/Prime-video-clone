@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+:root{
+    --btns : #3498DB;
+    --fonts : 'Poppins', sans-serif;
+    --footerBg : #424949;
+    --Bg : #154360;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+}
+.Signup_container{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), var(--Bg);
+}
+.Signup_container .signup_logo{
+    text-align: center;
+    color: #fff;
+    font-family: var(--fonts);
+    font-weight: 500;
+    font-size: 30px;
+    padding-top: 10px;
+}
+.Signup_container .signup_innerContainer{
+    width: 25%;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 0 0 8px 6px #3498DB;
+    padding: 10px;
+    font-family: var(--fonts);
+}
+.Signup_container .signup_innerContainer .form_title{
+    font-size: 25px;
+    color: #c0c0c0;
+    letter-spacing: 1px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.Signup_container .signup_innerContainer .input_box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 8px 0;
+    position: relative;
+}
+.Signup_container .signup_innerContainer .input_box .pass_icon{
+    position: absolute;
+    top: 28px;
+    right: 10px;
+}
+.Signup_container .signup_innerContainer .input_box #eye_close{
+    display: none;
+}
+.Signup_container .signup_innerContainer .input_box label{
+    color: #fff;
+}
+.Signup_container .signup_innerContainer .input_box input{
+    height: 30px;
+    padding: 0 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1.5px solid #c0c0c0;
+}
+.Signup_container .signup_innerContainer .input_box p{
+    font-size: 14px;
+    color: red;
+    letter-spacing: 0.5px;
+}
+.Signup_container .signup_innerContainer .input_box .signup_btn{
+    font-size: 20px;
+    font-weight: 500;
+    background-color: var(--btns);
+    color: #fff;
+    border: none;
+}
+.Signup_container .signup_innerContainer .terms_para{
+    font-size: 14px;
+    text-align: justify;
+    text-decoration: none;
+    color: #fff;
+}
+.Signup_container .signup_innerContainer .terms_para a{
+    text-decoration: none;
+    padding-left: 4px;
+    color: #3498DB;
+}
+.Signup_container .signup_innerContainer .horiz_line{
+    width: 80%;
+    margin: auto;
+    margin-top: 8px;
+    color: #808080;  
+}
+.Signup_container .signup_innerContainer .already_acc_para{
+    margin: 20px 0;
+    color: #fff;
+}
+.Signup_container .signup_innerContainer .already_acc_para a{
+    text-decoration: none;
+    color: #3498DB;
+}
+.Signup_container .signup_innerContainer .already_acc_para a:hover,
+.Signup_container .signup_innerContainer .terms_para a:hover{
+    text-decoration: underline;
+}

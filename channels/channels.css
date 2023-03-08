@@ -1,0 +1,73 @@
+body{
+    overflow-x: hidden;
+    position: relative;
+}
+.userDetails_Btn_page_channel{
+    width: 100%;
+    height: 226vh;
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top: 70px;
+    left: 0px;
+    z-index: 99;
+    display: none;
+}
+.userDetails_Btn_page_channel .userDetails_btn{
+    width: 200px;
+    height: 140px;
+    background-color: #000000;
+    position: fixed;
+    right: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.userDetails_Btn_page_channel .userDetails_btn a{
+    font-size: 22px;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 7px;
+}
+.header_container .header_section .header_left ul #channel_Text_line{
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+.section1_container{
+    width: 100vw;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.section1_container .section1_imgs{
+    display: inline-flex;
+    height: 60vh;
+}
+
+.section1_container .section1_imgs img{
+    height: 100%;
+    width: 100vw;
+    transition: 0.5s ease-in-out;
+    animation: slide 100s  3s infinite linear;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0vw);
+    }
+    20%{
+        transform: translateX(-100vw);
+    }
+    40%{
+        transform: translateX(-200vw);
+    }
+    60%{
+        transform: translateX(-300vw);
+    }
+    80%{
+        transform: translateX(-400vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+}
